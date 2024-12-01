@@ -5,7 +5,7 @@ A Monte Carlo Tree Search based bot for the game of Connect4
   <img src="https://github.com/user-attachments/assets/c75f6d27-96ff-476d-965f-c20e25b6ae5c" width="350"/>  
 </p>
 
-I wanted to learn Reinforcement Learning so I thought this would be a good first exercise. Plus, the algorithm used in this project is present in _MuZero_ and _AlphaGo_ so really wanted to learn about it! 
+I wanted to learn Reinforcement Learning so I thought this would be a good [~first~](https://github.com/TAOGenna/ai-notebooks-implementations/blob/main/10armed_bandit.ipynb) exercise. Plus, the algorithm used in this project is present in _MuZero_ and _AlphaGo_ so really wanted to learn about it! 
 
 ## The Game
 Connect Four is a two-player strategy game in which players take turns dropping colored discs into a vertical grid, aiming to be the first to form a horizontal, vertical, or diagonal line of four discs of the same color.
