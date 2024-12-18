@@ -89,7 +89,7 @@ class Connect4GUI:
             self.turn = -self.turn
             self.ai_move()
 
-    def ai_move(self, budget=2000):
+    def ai_move(self, budget=3000):
         if self.game_over:
             return
 
