@@ -2,6 +2,10 @@
 A Monte Carlo Tree Search (MCTS) based bot for the game of Connect4
 
 <p align="center">
+  <img src="connect4_progress.gif" alt="MCTS self-play" width="80%"/>
+</p>
+
+<p align="center">
   <img src="https://github.com/user-attachments/assets/c75f6d27-96ff-476d-965f-c20e25b6ae5c" width="350"/>  
 </p>
 
