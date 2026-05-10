@@ -5,10 +5,6 @@ A Monte Carlo Tree Search (MCTS) based bot for the game of Connect4
   <img src="connect4_progress.gif" alt="MCTS self-play" width="80%"/>
 </p>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/c75f6d27-96ff-476d-965f-c20e25b6ae5c" width="350"/>  
-</p>
-
 I wanted to learn Reinforcement Learning so I thought this would be a good [~first~](https://github.com/TAOGenna/ai-notebooks-implementations/blob/main/10armed_bandit.ipynb) exercise. Plus, the algorithm used in this project is present in _MuZero_ and _AlphaGo_ so I really wanted to learn about it! 
 
 Previously [I did](https://github.com/TAOGenna/ai-notebooks-implementations/blob/main/monte_carlo_tictactoc.py) a minimal version with a simpler game: tictactoe or "michi"(for spanish speakers). If you are a newcomer to RL as I am, I may suggest first revising the K-armed Bandit problem to better understand what we mean by "policy".
@@ -21,18 +17,13 @@ Monte Carlo Tree Search is a decision-making algorithm that builds a search tree
 
 Depending on the amount of computation budget that you give the program it may behave better or worse as it can have the opportunity to explore a larger space of possible states.
 
-## Usage 
+## Usage
 ```
 git clone https://github.com/TAOGenna/Connect4-MonteCarlo.git
+pip install pygame numpy tqdm
 python3 interface.py
 ```
-If you want the algorithm to search for deeper states, you can change that number in `interface.py`. Search for 
-```
- def ai_move(self, budget=3000):
-        if self.game_over:
-            return
-```
-and change the variable `budget` to a bigger number.
+Click a column to drop your disc. To make the bot search deeper, raise `BUDGET` near the top of `interface.py`.
 
 ## Future Work
 
