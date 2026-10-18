@@ -5,6 +5,11 @@ A Monte Carlo Tree Search (MCTS) based bot for the game of Connect4
   <img src="connect4_progress.gif" alt="MCTS self-play" width="80%"/>
 </p>
 
+<p align="center">
+  <a href="assets/portfolio_tile.mp4"><img src="assets/portfolio_tile.png" alt="MCTS self-play with search visit counts per column" width="70%"/></a>
+  <br/><sub>Portfolio visual — click for the animated loop.</sub>
+</p>
+
 I wanted to learn Reinforcement Learning so I thought this would be a good [~first~](https://github.com/TAOGenna/ai-notebooks-implementations/blob/main/10armed_bandit.ipynb) exercise. Plus, the algorithm used in this project is present in _MuZero_ and _AlphaGo_ so I really wanted to learn about it! 
 
 Previously [I did](https://github.com/TAOGenna/ai-notebooks-implementations/blob/main/monte_carlo_tictactoc.py) a minimal version with a simpler game: tictactoe or "michi"(for spanish speakers). If you are a newcomer to RL as I am, I may suggest first revising the K-armed Bandit problem to better understand what we mean by "policy".
